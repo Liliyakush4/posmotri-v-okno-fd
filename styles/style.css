@@ -58,7 +58,7 @@ ol {
   grid-auto-flow: column;
   align-items: end;
   gap: 30px;
-  width: 1140px;
+  width: 1200px;
   max-height: 534px;
 }
 
@@ -72,10 +72,6 @@ ol {
   width: 711px;
   height: 386px;
   margin-bottom: 14px;
-}
-
-.content__list-container {
-  position: relative;
 }
 
 .preloader-template {
@@ -274,6 +270,7 @@ gap: 6px;
 }
 
 .content__list-container {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
