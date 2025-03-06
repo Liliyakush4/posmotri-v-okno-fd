@@ -12,6 +12,7 @@ html {
   position: relative;
   display: flex;
   justify-content: center;
+  align-items: center;
   margin: 0 auto;
   padding: 133px 30px;
   color: #fff;
@@ -74,9 +75,6 @@ ol {
   margin-bottom: 14px;
 }
 
-.preloader-template {
-  position: absolute;
-}
 
 .result__video {
   width: 100%;
@@ -135,7 +133,6 @@ input[type="checkbox"]:checked+span {
 
 input[type="checkbox"]:checked+span::after {
   content: "";
-  position: absolute;
   top: 50%;
   left: 50%;
   width: 16px;
