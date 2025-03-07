@@ -63,8 +63,8 @@ ol {
 }
 
 .result {
-  width: 711px;
   grid-area: 1 / 1;
+  width: 711px;
 }
 
 .result__video-container {
@@ -73,7 +73,6 @@ ol {
   height: 386px;
   margin-bottom: 14px;
 }
-
 
 .result__video {
   width: 100%;
@@ -87,6 +86,12 @@ ol {
   justify-content: space-between;
   align-items: end;
   gap: 30px;
+  color: rgb(255, 255, 255);
+  font-family: "Fira Sans Condensed", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: left;
 }
 
 .search-form__fieldset {
@@ -94,9 +99,9 @@ ol {
 }
 
 .search-form__label-text {
+  margin-right: 5px;
   color: rgba(255, 255, 255);
   font-family: "Fira Sans Condensed", Arial, sans-serif;
-  margin-right: 5px;
 }
 
 .search-form__fieldset:focus {
@@ -104,13 +109,12 @@ ol {
 }
 
 .search-form__fieldset-title {
-  color: rgb(255, 255, 255);
-  font-family: "Fira Sans Condensed", Arial, sans-serif;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 22px;
-  letter-spacing: 0%;
-  text-align: left;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  text-align: inherit;
 }
 
 .search-form__pseudo-checkbox {
@@ -141,34 +145,39 @@ input[type="checkbox"]:checked+span::after {
 }
 
 .search-form__checkbox-list {
-display: flex;
-justify-content: space-between;
-gap: 6px;
+  display: flex;
+  justify-content: space-between;
+  gap: 6px;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  text-align: inherit;
 }
 
 .search-form__label {
-  line-height: 25px;
   vertical-align: middle;
+  line-height: 25px;
 }
 
-.search-form__label:hover .search-form__label-text { 
+.search-form__label:hover .search-form__label-text {
   text-decoration: underline;
-  text-underline-offset: 3px; 
-} 
+  text-underline-offset: 3px;
+}
 
 .search-form__textfield {
   width: 100%;
   border: none;
+  border-top: 1px solid rgba(255, 255, 255);
+  border-bottom: 1px solid rgba(255, 255, 255);
+  color: white;
   font-family: "Fira Sans Condensed", Arial, sans-serif;
   font-weight: 400;
   font-size: 18px;
-  color: white;
-  letter-spacing: 0%;
   text-align: left;
   background-color: transparent;
   appearance: none;
-  border-top: 1px solid rgba(255, 255, 255);
-  border-bottom: 1px solid rgba(255, 255, 255);
 }
 
 .search-form__textfield:focus {
@@ -271,7 +280,7 @@ gap: 6px;
   align-items: start;
   gap: 30px;
   height: 299px;
-  margin-top: 20px;
+  margin-top: 22px;
   overflow-y: auto;
 }
 
