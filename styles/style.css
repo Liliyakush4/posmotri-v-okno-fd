@@ -5,7 +5,9 @@
 }
 
 html {
-  block-size: 100%;
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }
 
 .page {
@@ -14,12 +16,13 @@ html {
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  padding: 133px 30px;
+  padding: 70px 30px;
   color: #fff;
   font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   background-color: #1b1919;
   inline-size: 1200px;
+  min-height: 100vh;
   block-size: auto;
 }
 
@@ -59,7 +62,9 @@ ol {
   grid-auto-flow: column;
   align-items: end;
   gap: 30px;
-  width: 1200px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .result {
